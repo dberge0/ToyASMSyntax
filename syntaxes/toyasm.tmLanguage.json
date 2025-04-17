@@ -34,7 +34,7 @@
     },
     "registers": {
       "name": "variable.parameter.register.toyasm",
-      "match": "\\b(?:rt|p[1-8]|r[1-8])\\b"
+      "match": "\\b(?:rt|p[1-8]|r[0-7])\\b"
     },
     "numbers": {
       "name": "constant.numeric.decimal.toyasm",

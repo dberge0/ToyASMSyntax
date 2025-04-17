@@ -10,6 +10,6 @@ Syntax highlighting created by Dan Bergen
 * Highlighting for core instructions: `add`, `mult`, `div`, `nand`, `move`, `loadprogram`, `loadval`, `load`, `store`,`output`, `input`, and `halt`.
 * Highlights the `macro`/`mend` block keywords.
 * Highlights the `temp` and `include` directives.
-* Highlights the temp register `rt`, parameters `p1`-`p8`, and general registers `r1`–`r8`.
+* Highlights the temp register `rt`, parameters `p1`-`p8`, and general registers `r0`–`r7`.
 * Numeric literals are styled as constants.
 * Comment lines start with `#`.

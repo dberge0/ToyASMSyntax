@@ -1,0 +1,15 @@
+# ToyASM VS Code Extension
+
+This extension provides syntax highlighting for the **ToyASM** created by 
+Noah Mendelsohn for the course CS40 @ Tufts!
+
+Syntax highlighting created by Dan Bergen
+
+## Features
+
+* Highlighting for core instructions: `add`, `mult`, `div`, `nand`, `move`, `loadprogram`, `loadval`, `load`, `store`,`output`, `input`, and `halt`.
+* Highlights the `macro`/`mend` block keywords.
+* Highlights the `temp` and `include` directives.
+* Highlights the temp register `rt`, parameters `p1`-`p8`, and general registers `r1`–`r8`.
+* Numeric literals are styled as constants.
+* Comment lines start with `#`.

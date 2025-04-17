@@ -1,0 +1,19 @@
+# move.tasm
+# bitwise move
+# a := b 
+
+macro move
+loadval rt,1
+cmov p1,p2,rt
+mend
+
+#--------------------------------------------------------------------
+#                            main
+#--------------------------------------------------------------------
+
+temp r6
+loadval r3,3
+loadval r4,48
+move r3,r4
+output r3
+halt

@@ -1,0 +1,35 @@
+{
+    "name": "toyasm-language-support",
+    "displayName": "ToyASM Language Support",
+    "description": "Syntax highlighting and snippets for the ToyASM assembly language.",
+    "version": "0.0.1",
+    "publisher": "yourname",
+    "engines": {
+      "vscode": "^1.90.0"
+    },
+    "categories": [
+      "Programming Languages"
+    ],
+    "contributes": {
+      "languages": [
+        {
+          "id": "toyasm",
+          "aliases": ["ToyASM", "toyasm"],
+          "extensions": [".tasm"],
+          "configuration": "./language-configuration.json"
+        }
+      ],
+      "grammars": [
+        {
+          "language": "toyasm",
+          "scopeName": "source.toyasm",
+          "path": "./syntaxes/toyasm.tmLanguage.json"
+        }
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yourname/toyasm-language-support.git"
+    },
+    "license": "MIT"
+  }

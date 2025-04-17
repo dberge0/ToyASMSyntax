@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "ToyASM",
+  "scopeName": "source.toyasm",
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#macroKeywords" },
+    { "include": "#tempDirective" },
+    { "include": "#includeDirective" },
+    { "include": "#instructions" },
+    { "include": "#registers" },
+    { "include": "#numbers" }
+  ],
+  "repository": {
+    "comments": {
+      "name": "comment.line.number-sign.toyasm",
+      "match": "#.*$"
+    },
+    "macroKeywords": {
+      "name": "keyword.control.macro.toyasm",
+      "match": "\\b(?:macro|mend)\\b"
+    },
+    "tempDirective": {
+      "name": "storage.modifier.temp.toyasm",
+      "match": "\\btemp\\b"
+    },
+    "includeDirective": {
+      "name": "keyword.control.include.toyasm",
+      "match": "\\binclude\\b"
+    },
+    "instructions": {
+      "name": "keyword.instruction.toyasm",
+      "match": "\\b(?:add|mult|div|nand|move|load|store|cmov|halt|loadprogram|loadval|output|input)\\b"
+    },
+    "registers": {
+      "name": "variable.parameter.register.toyasm",
+      "match": "\\b(?:rt|p[1-8]|r[1-8])\\b"
+    },
+    "numbers": {
+      "name": "constant.numeric.decimal.toyasm",
+      "match": "\\b\\d+\\b"
+    }
+  }
+}

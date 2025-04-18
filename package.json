@@ -1,9 +1,9 @@
 {
-    "name": "toyasm-language-support",
-    "displayName": "ToyASM Language Support",
+    "name": "toyasm",
+    "displayName": "CS40 ToyASM Language Support",
     "description": "Syntax highlighting and snippets for the ToyASM assembly language.",
     "version": "0.0.1",
-    "publisher": "yourname",
+    "publisher": "dberge0",
     "engines": {
       "vscode": "^1.90.0"
     },
@@ -29,7 +29,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/yourname/toyasm-language-support.git"
+      "url": "https://github.com/dberge0/ToyASMSyntax"
     },
     "license": "MIT"
   }
